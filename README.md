@@ -1,1 +1,1 @@
-# cn466-course-project
+# CN466-Final Project
