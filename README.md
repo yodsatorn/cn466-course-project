@@ -9,6 +9,7 @@
 ---
 ### Motivation
 ![CN466 Course project](https://user-images.githubusercontent.com/60430405/145685621-99f662b3-848e-4220-a37e-0a5df6146c20.png)
+
 ### Requirement
 ในการทำงานนี้จะมีการใช้งาน Software, Device หรือ Service อยู่หลัก ๆ ทั้งหมด 6 ส่วนด้วยกัน ได้แก่
 - Cucumber RS Board
@@ -25,6 +26,8 @@
 4. LIFF UI: มี List ของคำสั่งหรือฟีเจอร์ต่าง ๆ ที่สามารถเรียกใช้งานกับ Chatbot ได้ โดยผู้ใช้สามารถมาเรียกผ่านทาง LIFF UI นี้ได้
 5. Web API: มี Notifications API ไว้แจ้งเตือนผู้ใช้ในกรณีที่กระถางถูกเคลื่อนย้าย
 6. Cloud service: มีการใช้ Heroku ซึ่งเป็น Cloud service แบบ Platform as a Service (PaaS) ในการ Deploy code ส่วนของ Chatbot และ LIFF UI 
+
 ### Design
+![CN466 Course project (1)](https://user-images.githubusercontent.com/60430405/145689362-a4821a73-33d6-4a83-af50-33bdae94a9e6.png)
 
 ### Test
