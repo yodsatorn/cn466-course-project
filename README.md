@@ -30,7 +30,7 @@
 6. Cloud service: มีการใช้ [Heroku](https://www.heroku.com/) ซึ่งเป็น Cloud service แบบ Platform as a Service (PaaS) ในการ Deploy code ส่วนของ Chatbot, LIFF UI และ Backend server
 
 ## Design
-![CN466 Course project (1)](https://user-images.githubusercontent.com/60430405/145689362-a4821a73-33d6-4a83-af50-33bdae94a9e6.png)
+![2](https://user-images.githubusercontent.com/60430405/145871532-d4059787-46a9-424a-b971-46243c446cf1.png)
 
 ## Test
 
