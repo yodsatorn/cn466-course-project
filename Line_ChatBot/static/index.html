@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <title>LIFF - Cucumber</title>
+    <script>
+        function selectChoice(event) {
+            //vibrate 500ms user's mobile when they selected choice
+            //this is vibrate web API
+            //you can explore more here -> https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API
+            const canVibrate = window.navigator.vibrate //check if user's browser dose not support vibrate API 
+            if (canVibrate) window.navigator.vibrate(500)
+
+            //check what choice that user has select
+            document.getElementById('statusID')
+            if (event.target.value == '1') {
+                liff.sendMessages([
+                    {
+                        type: 'text',
+                        text: 'cucumber'
+                    }
+                ])
+                    .then(() => {
+                        console.log('message sent');
+                    })
+                    .catch((err) => {
+                        console.log('error', err);
+                    });
+            }
+            if (event.target.value == '2') {
+                liff.sendMessages([
+                    {
+                        type: 'text',
+                        text: 'pressure'
+                    }
+                ])
+                    .then(() => {
+                        console.log('message sent');
+                    })
+                    .catch((err) => {
+                        console.log('error', err);
+                    });
+            }
+            if (event.target.value == '3') {
+                liff.sendMessages([
+                    {
+                        type: 'text',
+                        text: 'temperature'
+                    }
+                ])
+                    .then(() => {
+                        console.log('message sent');
+                    })
+                    .catch((err) => {
+                        console.log('error', err);
+                    });
+            }
+            if (event.target.value == '4') {
+                liff.sendMessages([
+                    {
+                        type: 'text',
+                        text: 'humidity'
+                    }
+                ])
+                    .then(() => {
+                        console.log('message sent');
+                    })
+                    .catch((err) => {
+                        console.log('error', err);
+                    });
+            }
+            liff.closeWindow()
+
+        }
+    </script>
+</head>
+
+<body>
+    <ons-page>
+        <ons-toolbar>
+            <div class="center">Cucumber check status</div>
+        </ons-toolbar>
+
+        <h3>Select a status that you want to check :</h3>
+        <ons-select id="statusID" onchange="selectChoice(event)">
+            <option value="" disabled selected>select here</option>
+            <option value="1">All status from board</option>
+            <option value="2">Pressure</option>
+            <option value="3">Temperature</option>
+            <option value="4">Humidity</option>
+        </ons-select>
+
+    </ons-page>
+
+    <script type="text/javascript">
+
+
+        window.onload = function () {
+            // Initialize LIFF
+            liff
+                .init({ liffId: "1656538534-3Kbg4oNV" })
+                .then(() => {
+                    if (liff.isLoggedIn()) { console.log("in") }
+                    else { console.log("out") }
+                })
+                .catch((err) => {
+                    console.error(err.code, error.message);
+                });
+
+        }
+
+    </script>
+</body>
+
+
+</html>
