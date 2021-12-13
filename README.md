@@ -2,11 +2,17 @@
 # Documentation of development
 ---
 ## Table of contents
+- [About](About)
 - [Motivation](#Motivation)
 - [Requirement](#Requirement)
 - [Design](#Design)
 - [Test](#Test)
 - [DemoVideo](#DemoVideo)
+---
+## About
+โปรเจคนี้เป็นส่วนหนึ่งของวิชา CN466 อินเทอร์เน็ตของสรรพสิ่ง โดยเป็นระบบที่สามารถตรวจสอบค่าสถานะ อุณหภูมิ, ความชื้น, ความดัน และสามารถวิเคราะห์การเคลื่อนไหว และแจ้งเตือนผู้ใช้ผ่านทางไลน์ได้หากกระถางถูกเคลื่อนย้าย
+
+This repository is created for CN466's Internet of Things Project. This project is a system that can monitor temperature, humidity, pressure status and can analyze motion. and alert users via LINE if the plant pot is being moved.
 ---
 ## Motivation 
 
@@ -37,4 +43,5 @@
 
 ## DemoVideo
 คลิปสาธิตการทำงานของซอฟต์แวร์ และ Chatbot 
+
 Link: [Click here]()
