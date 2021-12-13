@@ -33,5 +33,8 @@
 ![2](https://user-images.githubusercontent.com/60430405/145871532-d4059787-46a9-424a-b971-46243c446cf1.png)
 
 ## Test
+![CN466 Course project (1)](https://user-images.githubusercontent.com/60430405/145876292-8513b7b4-b95a-4f9c-aae1-02c423833a2b.png)
 
 ## DemoVideo
+คลิปสาธิตการทำงานของซอฟต์แวร์ และ Chatbot 
+Link: [Click here]()
