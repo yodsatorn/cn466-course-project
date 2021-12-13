@@ -18,4 +18,6 @@
     **(สำหรับตัว Vibrate API นั้นในปัจจุบัน browser ที่ทำงานบนระบบปฏิบัติการ IOS ยังไม่รองรับ จึงสามารถใช้งานได้เพียงบนระบบปฏิบัติการ Android เท่านั้น)**
     3. หลังจากเลือก Choice แล้ว LIFF จะทำการส่งข้อความตามที่เราออกแบบเอาไว้ไปให้กับ Line Chatbot เองโดยที่ผู้ใช้ไม่ต้องพิมพ์
     
-    ![6](https://user-images.githubusercontent.com/60430405/145872060-fffbdde8-0153-4730-96e8-7f2f4f924b56.png)
+![6](https://user-images.githubusercontent.com/60430405/145872060-fffbdde8-0153-4730-96e8-7f2f4f924b56.png)
+
+Link heroku for this code: https://chatbot-cn466.herokuapp.com/
