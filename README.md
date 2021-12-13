@@ -20,8 +20,6 @@ This repository is created for CN466's Internet of Things Project. This project 
 
 Developed by: Yodsatorn P. 
 
-Faculty of Computer Engineering, Thammasat University
-
 ---
 ## Motivation 
 
