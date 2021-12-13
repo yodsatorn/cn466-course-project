@@ -15,3 +15,4 @@
 2. วัดค่า Temperature, Humidity, Pressure, Acceleration, Angular Velocity ผ่านตัว sersors บนบอร์ด
 3. ทำการ publish ค่าทั้งหมดที่วัดได้ผ่าน MQTT protocol โดยใช้ TOPIC ที่ได้กำหนดเอาไว้ ทุก ๆ 0.1 วินาที
 
+![3](https://user-images.githubusercontent.com/60430405/145871973-8734a3ab-5c7c-4b33-9dad-f6f8156169b0.png)
