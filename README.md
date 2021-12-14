@@ -1,4 +1,5 @@
-# CN466-Final Project
+![CN466 Course project (2)](https://user-images.githubusercontent.com/60430405/145946263-b7f0885f-378d-4fae-8ed9-69e43306066e.png)
+
 # Documentation of development
 
 ---
@@ -39,7 +40,7 @@ Developed by: Yodsatorn P.
 2. HiveMQ: เป็นโปรโตคอลที่ทำหน้าที่ส่งข้อมูลจากบอร์ดไปให้เซิฟเวอร์ มี Topic เป็น **cn466/yodsatorn/cucumber/status** ข้อมูล payload จะเป็นค่า temperature, humidity, pressure, acceleration, angular velocity และอยู่ในรูปแบบ JSON format
 3. Edge Impulse: ใช้ [Edge Impulse](https://www.edgeimpulse.com/) เพื่อ train Machine learning model ที่สามารถวิเคราะห์การเคลื่อนไหวได้ว่ากระถางอยู่นิ่งหรือไม่ หากมีการเคลื่อนไหวหรือถูกเคลื่อนย้ายก็ให้มีการแจ้งเตือนผ่านไลน์
 4. LIFF UI: มี List ของคำสั่งหรือฟีเจอร์ต่าง ๆ ที่สามารถเรียกใช้งานกับ Chatbot ได้ โดยผู้ใช้สามารถมาเรียกผ่านทาง LIFF UI นี้ได้
-5. Web API: มี [Vibrate API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API) ซึ่งจะทำการสั่งให้โทรศัพท์มือถือของผู้ใช้สั่นเมื่อผู้ใช้ทำการกดเลือก ตัวเลือกคำสั่งต่าง ๆ ในหน้า LIFF UI สำหรับเช็คสถานะ
+5. Web API: มี [Vibrate API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API) ซึ่งจะทำการสั่งให้โทรศัพท์มือถือของผู้ใช้สั่นเมื่อผู้ใช้ทำการกดเลือก ตัวเลือกคำสั่งต่าง ๆ ในหน้า LIFF UI สำหรับเช็คสถานะ เพื่อตอบสนองว่าผู้ใช้ได้ทำการกดเลือกสถานะนั้นๆแล้ว
 6. Cloud service: มีการใช้ [Heroku](https://www.heroku.com/) ซึ่งเป็น Cloud service แบบ Platform as a Service (PaaS) ในการ Deploy code ส่วนของ Chatbot, LIFF UI และ Backend server
 
 ## Design
@@ -51,4 +52,4 @@ Developed by: Yodsatorn P.
 ## DemoVideo
 คลิปสาธิตการทำงานของซอฟต์แวร์ และ Chatbot 
 
-Link: [Click here]()
+Link: [Click here](https://youtu.be/udNo2sj_5p8)
